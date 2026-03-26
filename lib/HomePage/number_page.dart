@@ -59,52 +59,62 @@ class NumberPage extends StatelessWidget {
   // );
   final List<Number> number = const [
     Number(
+      sound: 'sounds/numbers/number_one_sound.mp3',
       image: "assets/images/numbers/number_one.png",
       jpName: "ichi",
       enName: "one",
     ),
     Number(
+      sound: 'sounds/numbers/number_two_sound.mp3',
       image: "assets/images/numbers/number_two.png",
       jpName: "ni",
       enName: "two",
     ),
     Number(
+      sound: 'sounds/numbers/number_three_sound.mp3',
       image: "assets/images/numbers/number_three.png",
       jpName: "san",
       enName: "three",
     ),
 
     Number(
+      sound: 'sounds/numbers/number_four_sound.mp3',
       image: "assets/images/numbers/number_four.png",
       jpName: "shi",
       enName: "four",
     ),
     Number(
+      sound: 'sounds/numbers/number_five_sound.mp3',
       image: "assets/images/numbers/number_five.png",
       jpName: "go",
       enName: "five",
     ),
     Number(
+      sound: 'sounds/numbers/number_six_sound.mp3',
       image: "assets/images/numbers/number_six.png",
       jpName: "roku",
       enName: "six",
     ),
     Number(
+      sound: 'sounds/numbers/number_seven_sound.mp3',
       image: "assets/images/numbers/number_seven.png",
       jpName: "sebun",
       enName: "seven",
     ),
     Number(
+      sound: 'sounds/numbers/number_eight_sound.mp3',
       image: "assets/images/numbers/number_eight.png",
       jpName: "hanchi",
       enName: "eight",
     ),
     Number(
+      sound: 'sounds/numbers/number_nine_sound.mp3',
       image: "assets/images/numbers/number_nine.png",
       jpName: "kyu",
       enName: "nine",
     ),
     Number(
+      sound: 'sounds/numbers/number_ten_sound.mp3',
       image: "assets/images/numbers/number_ten.png",
       jpName: "ju",
       enName: "ten",
@@ -157,10 +167,10 @@ class NumberPage extends StatelessWidget {
   }
 }
 
-List<Widget> getList(List<Number> numbers) {
-  List<Widget> listItems = [];
-  for (int i = 0; i < numbers.length; i++) {
-    listItems.add(NumberItem(number: numbers[i]));
-  }
-  return listItems;
-}
+// List<Widget> getList(List<Number> numbers) {
+//   List<Widget> listItems = [];
+//   for (int i = 0; i < numbers.length; i++) {
+//     listItems.add(NumberItem(number: numbers[i]));
+//   }
+//   return listItems;
+// }
