@@ -28,7 +28,7 @@ class PhrasePage extends StatelessWidget {
       enName: "i love anime",
     ),
     Phrase(
-      sound: 'sounds/colors/i_love_programming.wav',
+      sound: 'sounds/phrases/i_love_programming.wav',
       jpName: "go",
       enName: "i love programming",
     ),
@@ -48,7 +48,7 @@ class PhrasePage extends StatelessWidget {
       enName: "where are you going",
     ),
     Phrase(
-      sound: 'sounds/phrases/where_are_you_going.wav',
+      sound: 'sounds/phrases/yes_im_coming.wav',
       jpName: "kyu",
       enName: "yes im coming",
     ),
